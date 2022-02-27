@@ -32,20 +32,13 @@ navbarMenu.addEventListener('click', (event) => {
 });
 
 
-// Handle click on "contact me" button on home
+// Hadle click on "contact me" button on home
 const homeContactBtn = document.querySelector('.home__contact');
 
 homeContactBtn.addEventListener('click', (event) => {
   scrollIntoView('#contact');
 });
 
-// Make home slowly fade to transparent as the window scrolls down
-const home = document.querySelector('.home__container');
-const homeHeight = home.getBoundingClientRect().height;
-document.addEventListener('scroll', () => {
-  //console.log(1 - window.scrollY / homeHeight);
-  home.style.opacity = 1 - window.scrollY / homeHeight;
-});
 
 // extract method that is repeating
 function scrollIntoView(selector) {
