@@ -1,5 +1,6 @@
 /* Global */
 :root {
+
   /* Color */
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
@@ -40,7 +41,7 @@
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   cursor: default;
 }
 
@@ -48,6 +49,7 @@ a {
   text-decoration: none;
   color: var(--color-white);
 }
+
 
 ul {
   list-style: none;
@@ -114,12 +116,13 @@ p {
 }
 
 .navbar__menu {
-  display: flex;
+  display: flex; 
 }
 
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
+
 }
 
 .navbar__menu__item {
@@ -148,7 +151,7 @@ p {
 
 /* Home */
 #home {
-  background: url("imgs/homebackground.png") center/cover no-repeat;
+  background: url('imgs/homebackground.png') center/cover no-repeat;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
@@ -368,7 +371,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
+  background-color: black;;
   position: absolute;
   top: 0;
   left: 0;
@@ -389,7 +392,7 @@ p {
 }
 
 .project__description h3:after {
-  content: "";
+  content: '';
   width: 25px;
   height: 2px;
   background-color: var(--color-dark-white);
@@ -428,6 +431,7 @@ p {
 .testimonial__avatar:nth-child(even) {
   margin-left: 40px;
 }
+
 
 .testimonial__speech-bubble {
   padding: 18px;
@@ -468,27 +472,6 @@ p {
 .contact__links i:hover {
   transform: scale(1.1);
   color: var(--color-light-grey);
-}
-
-/* Scroll */
-.arrow-up {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  width: 70px;
-  height: 70px;
-  font-size: 50px;
-  color: var(--color-white);
-  background-color: var(--color-pink);
-  border-radius: 50%;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 300ms ease-in;
-}
-
-.arrow-up.visible {
-  opacity: 1;
-  pointer-events: auto;
 }
 
 /* For below 768px screen width */

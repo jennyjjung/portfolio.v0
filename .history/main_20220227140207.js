@@ -58,12 +58,9 @@ document.addEventListener('scroll', () => {
 });
 
 // Handle click on the "arrow up" button
-arrowUp.addEventListener('click', () => {
-  scrollIntoView('#home');
-});
 
 // extract method that is repeating
 function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);
   scrollTo.scrollIntoView({behavior: 'smooth'});
-};
+}

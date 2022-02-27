@@ -482,13 +482,12 @@ p {
   background-color: var(--color-pink);
   border-radius: 50%;
   opacity: 0;
-  pointer-events: none;
+  pointer-event: none;
   transition: opacity 300ms ease-in;
 }
 
 .arrow-up.visible {
   opacity: 1;
-  pointer-events: auto;
 }
 
 /* For below 768px screen width */
