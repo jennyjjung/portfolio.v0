@@ -86,6 +86,10 @@ workBtnContainer.addEventListener('click', (e) => {
     projectContainer.classList.remove('anim-out');
   }, 300);
 
+  
+
+  
+
   // console.log('----------------');
   // for (let project of projects) {
   //   console.log(project);
