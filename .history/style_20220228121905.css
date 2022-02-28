@@ -550,7 +550,6 @@ p {
 
   .section {
     padding: 16px;
-    padding-top: 40px;
   }
 
   .about__majors {
@@ -569,7 +568,6 @@ p {
 
   .category__btn {
     margin: 4px 0;
-    width: 100%;
   }
 
   .project {
